@@ -97,7 +97,7 @@ public class Player : MonoBehaviour
     //Quando o player voltar ao chão
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Se a animação de pular ainda não foi desativada
+        //Se o player não está apertando o botão de pular
         if (!Input.GetButton("Jump"))
         {
             //Desative a animação de pular
